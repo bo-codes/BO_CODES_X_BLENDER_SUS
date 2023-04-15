@@ -1,0 +1,22 @@
+#model-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#model-loading {
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  width: 360px;
+}
+
+@media screen and (max-width: 500px) {
+  #model-loading {
+    height: 240px;
+    width: 240px;
+  }
+}
